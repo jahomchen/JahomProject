@@ -40,3 +40,4 @@ E:\JahomProject\JahomProject.Core\bin\Debug\System.Collections.Immutable.xml
 E:\JahomProject\JahomProject.Core\bin\Debug\System.Linq.Dynamic.Core.xml
 E:\JahomProject\JahomProject.Core\obj\Debug\JahomProject.Core.dll
 E:\JahomProject\JahomProject.Core\obj\Debug\JahomProject.Core.pdb
+E:\JahomProject\JahomProject.Core\obj\Debug\JahomProject.Core.csprojResolveAssemblyReference.cache
