@@ -1,0 +1,460 @@
+DEBUG 2017-08-21 12:49:58,726 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-21 12:49:58,743 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-08-21 12:49:58,750 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.Web.JahomProjectWebModule, JahomProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,753 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectDataModule, JahomProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,753 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,753 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,753 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,753 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectCoreModule, JahomProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectApplicationModule, JahomProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.Api.JahomProjectWebApiModule, JahomProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:49:58,758 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-08-21 12:49:58,908 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 12:49:58,908 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 12:49:58,908 [1    ] o.Configuration.LanguageManagementConfig - Converted JahomProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 12:49:58,908 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 12:49:59,319 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: JahomProject.EntityFramework.JahomProjectDbContext, JahomProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:50:00,773 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-08-21 12:50:00,782 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-21 12:50:00,795 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-08-21 12:50:00,798 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JahomProject
+DEBUG 2017-08-21 12:50:00,800 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-21 12:50:00,898 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-21 12:50:00,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-08-21 12:50:00,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-08-21 12:50:00,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-08-21 12:50:00,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.CreateUserDto
+DEBUG 2017-08-21 12:50:00,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.UpdateUserDto
+DEBUG 2017-08-21 12:50:00,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.UserDto
+DEBUG 2017-08-21 12:50:00,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.CreateRoleDto
+DEBUG 2017-08-21 12:50:00,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.PermissionDto
+DEBUG 2017-08-21 12:50:00,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.RoleDto
+DEBUG 2017-08-21 12:50:00,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-08-21 12:50:00,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-08-21 12:50:00,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.TenantDto
+DEBUG 2017-08-21 12:50:00,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-08-21 12:50:00,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-08-21 12:50:02,730 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-08-21 12:50:02,731 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-08-21 12:50:02,732 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-08-21 12:50:02,733 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-08-21 12:50:02,734 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-08-21 12:50:02,735 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-08-21 12:58:19,518 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-21 12:58:19,534 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-08-21 12:58:19,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.Web.JahomProjectWebModule, JahomProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectDataModule, JahomProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,545 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,545 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,545 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectCoreModule, JahomProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,545 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectApplicationModule, JahomProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,545 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,545 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.Api.JahomProjectWebApiModule, JahomProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,546 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,546 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,546 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,546 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,546 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:19,550 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-08-21 12:58:19,703 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 12:58:19,703 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 12:58:19,703 [1    ] o.Configuration.LanguageManagementConfig - Converted JahomProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 12:58:19,704 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 12:58:20,099 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: JahomProject.EntityFramework.JahomProjectDbContext, JahomProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 12:58:21,467 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-08-21 12:58:21,477 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-21 12:58:21,490 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-08-21 12:58:21,494 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JahomProject
+DEBUG 2017-08-21 12:58:21,496 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-21 12:58:21,594 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-21 12:58:21,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-08-21 12:58:21,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-08-21 12:58:21,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-08-21 12:58:21,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.CreateUserDto
+DEBUG 2017-08-21 12:58:21,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.UpdateUserDto
+DEBUG 2017-08-21 12:58:21,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.UserDto
+DEBUG 2017-08-21 12:58:21,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.CreateRoleDto
+DEBUG 2017-08-21 12:58:21,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.PermissionDto
+DEBUG 2017-08-21 12:58:21,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.RoleDto
+DEBUG 2017-08-21 12:58:21,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-08-21 12:58:21,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-08-21 12:58:21,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.TenantDto
+DEBUG 2017-08-21 12:58:21,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-08-21 12:58:21,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-08-21 12:58:23,288 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-08-21 12:58:23,289 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-08-21 12:58:23,290 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-08-21 12:58:23,292 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-08-21 12:58:23,294 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-08-21 12:58:23,295 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2017-08-21 12:58:25,865 [7    ] omProject.Web.Controllers.HomeController - Culture is not supported.
+Parameter name: name
+vn is an invalid culture identifier.
+System.Globalization.CultureNotFoundException: Culture is not supported.
+Parameter name: name
+vn is an invalid culture identifier.
+   at System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+   at Abp.Localization.CultureInfoHelper.<>c.<Get>b__3_0(String n)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.Localization.CultureInfoHelper.Get(String name)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.CreateLocalizationDictionary(LanguageInfo language)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.<>c__DisplayClass11_0.<GetDictionaries>b__0(String s)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2017-08-21 12:58:59,584 [9    ] omProject.Web.Controllers.HomeController - Culture is not supported.
+Parameter name: name
+vn is an invalid culture identifier.
+System.Globalization.CultureNotFoundException: Culture is not supported.
+Parameter name: name
+vn is an invalid culture identifier.
+   at System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+   at Abp.Localization.CultureInfoHelper.<>c.<Get>b__3_0(String n)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.Localization.CultureInfoHelper.Get(String name)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.CreateLocalizationDictionary(LanguageInfo language)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.<>c__DisplayClass11_0.<GetDictionaries>b__0(String s)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-08-21 13:17:54,559 [75   ] Abp.BackgroundJobs.BackgroundJobManager  - System.Transactions.TransactionInDoubtException: 事务不确定。 ---> System.Data.SqlClient.SqlException: Timeout 时间已到。在操作完成之前超时时间已过或服务器未响应。 ---> System.ComponentModel.Win32Exception: 等待的操作过时。
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlDelegatedTransaction.SinglePhaseCommit(SinglePhaseEnlistment enlistment)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Transactions.TransactionStateInDoubt.EndCommit(InternalTransaction tx)
+   在 System.Transactions.CommittableTransaction.Commit()
+   在 System.Transactions.TransactionScope.InternalDispose()
+   在 System.Transactions.TransactionScope.Dispose()
+   在 Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.Commit()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.<CompleteUowAsync>d__15.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Domain.Uow.UnitOfWorkBase.<CompleteAsync>d__57.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.<>c__DisplayClass6_0.<<PerformAsyncUow>b__2>d.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+System.Transactions.TransactionInDoubtException: 事务不确定。 ---> System.Data.SqlClient.SqlException: Timeout 时间已到。在操作完成之前超时时间已过或服务器未响应。 ---> System.ComponentModel.Win32Exception: 等待的操作过时。
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlDelegatedTransaction.SinglePhaseCommit(SinglePhaseEnlistment enlistment)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Transactions.TransactionStateInDoubt.EndCommit(InternalTransaction tx)
+   在 System.Transactions.CommittableTransaction.Commit()
+   在 System.Transactions.TransactionScope.InternalDispose()
+   在 System.Transactions.TransactionScope.Dispose()
+   在 Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.Commit()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.<CompleteUowAsync>d__15.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Domain.Uow.UnitOfWorkBase.<CompleteAsync>d__57.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.<>c__DisplayClass6_0.<<PerformAsyncUow>b__2>d.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2017-08-21 13:20:13,433 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-21 13:20:13,451 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-08-21 13:20:13,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.Web.JahomProjectWebModule, JahomProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectDataModule, JahomProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectCoreModule, JahomProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectApplicationModule, JahomProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.Api.JahomProjectWebApiModule, JahomProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,465 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,465 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,465 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:13,469 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-08-21 13:20:13,632 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 13:20:13,632 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 13:20:13,632 [1    ] o.Configuration.LanguageManagementConfig - Converted JahomProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 13:20:13,632 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 13:20:14,059 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: JahomProject.EntityFramework.JahomProjectDbContext, JahomProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:20:15,604 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-08-21 13:20:15,613 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-21 13:20:15,627 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-08-21 13:20:15,629 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JahomProject
+DEBUG 2017-08-21 13:20:15,631 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-21 13:20:15,723 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-21 13:20:15,804 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-08-21 13:20:15,805 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-08-21 13:20:15,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-08-21 13:20:15,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.CreateUserDto
+DEBUG 2017-08-21 13:20:15,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.UpdateUserDto
+DEBUG 2017-08-21 13:20:15,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.UserDto
+DEBUG 2017-08-21 13:20:15,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.CreateRoleDto
+DEBUG 2017-08-21 13:20:15,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.PermissionDto
+DEBUG 2017-08-21 13:20:15,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.RoleDto
+DEBUG 2017-08-21 13:20:15,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-08-21 13:20:15,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-08-21 13:20:15,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.TenantDto
+DEBUG 2017-08-21 13:20:15,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-08-21 13:20:15,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-08-21 13:20:17,515 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-08-21 13:20:17,517 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-08-21 13:20:17,518 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-08-21 13:20:17,519 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-08-21 13:20:17,520 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-08-21 13:20:17,521 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2017-08-21 13:20:20,004 [6    ] omProject.Web.Controllers.HomeController - Culture is not supported.
+Parameter name: name
+vn is an invalid culture identifier.
+System.Globalization.CultureNotFoundException: Culture is not supported.
+Parameter name: name
+vn is an invalid culture identifier.
+   at System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+   at Abp.Localization.CultureInfoHelper.<>c.<Get>b__3_0(String n)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.Localization.CultureInfoHelper.Get(String name)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.CreateLocalizationDictionary(LanguageInfo language)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.<>c__DisplayClass11_0.<GetDictionaries>b__0(String s)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2017-08-21 13:22:10,529 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-21 13:22:10,691 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-08-21 13:22:10,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.Web.JahomProjectWebModule, JahomProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectDataModule, JahomProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,703 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,703 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectCoreModule, JahomProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,703 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.JahomProjectApplicationModule, JahomProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,703 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,703 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JahomProject.Api.JahomProjectWebApiModule, JahomProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:10,708 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-08-21 13:22:11,031 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 13:22:11,031 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 13:22:11,031 [1    ] o.Configuration.LanguageManagementConfig - Converted JahomProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 13:22:11,031 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-21 13:22:11,512 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: JahomProject.EntityFramework.JahomProjectDbContext, JahomProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-21 13:22:12,307 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-08-21 13:22:12,316 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-21 13:22:12,328 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-08-21 13:22:12,331 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JahomProject
+DEBUG 2017-08-21 13:22:12,332 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-21 13:22:12,426 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-21 13:22:12,500 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-08-21 13:22:12,500 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-08-21 13:22:12,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-08-21 13:22:12,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.CreateUserDto
+DEBUG 2017-08-21 13:22:12,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.UpdateUserDto
+DEBUG 2017-08-21 13:22:12,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Users.Dto.UserDto
+DEBUG 2017-08-21 13:22:12,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.CreateRoleDto
+DEBUG 2017-08-21 13:22:12,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.PermissionDto
+DEBUG 2017-08-21 13:22:12,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Roles.Dto.RoleDto
+DEBUG 2017-08-21 13:22:12,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-08-21 13:22:12,507 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-08-21 13:22:12,507 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.MultiTenancy.Dto.TenantDto
+DEBUG 2017-08-21 13:22:12,507 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-08-21 13:22:12,507 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JahomProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-08-21 13:22:14,149 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-08-21 13:22:14,150 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-08-21 13:22:14,151 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-08-21 13:22:14,152 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-08-21 13:22:14,153 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-08-21 13:22:14,155 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JahomProject.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2017-08-21 13:22:18,358 [6    ] omProject.Web.Controllers.HomeController - Culture is not supported.
+Parameter name: name
+vn is an invalid culture identifier.
+System.Globalization.CultureNotFoundException: Culture is not supported.
+Parameter name: name
+vn is an invalid culture identifier.
+   at System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+   at Abp.Localization.CultureInfoHelper.<>c.<Get>b__3_0(String n)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.Localization.CultureInfoHelper.Get(String name)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.CreateLocalizationDictionary(LanguageInfo language)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.<>c__DisplayClass11_0.<GetDictionaries>b__0(String s)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
